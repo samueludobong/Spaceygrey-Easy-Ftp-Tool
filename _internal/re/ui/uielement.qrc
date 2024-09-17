@@ -1,0 +1,34 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>toggle-off (2).png</file>
+    <file>toggle-on (2).png</file>
+    <file>folder.png</file>
+    <file>defaults.png</file>
+    <file>step1.jpg</file>
+    <file>step2.jpg</file>
+    <file>step3.png</file>
+    <file>AppleStore.png</file>
+    <file>Untitled.png</file>
+    <file>rectangle-xmark(filled).png</file>
+    <file>window-minimize.png</file>
+    <file>rectangle-xmark (1).png</file>
+    <file>dropdown-select.png</file>
+    <file>dropdown-select up.png</file>
+    <file>hand-back-point-left.png</file>
+    <file>toggle-on.png</file>
+    <file>toggle-off.png</file>
+    <file>database (2).png</file>
+    <file>local.png</file>
+    <file>add.png</file>
+    <file>database (1).png</file>
+    <file>user-login.png</file>
+    <file>users-create.png</file>
+    <file>backdrop.png</file>
+    <file>slide2.png</file>
+    <file>slide3.png</file>
+    <file>slide4.png</file>
+    <file>slide1.png</file>
+    <file>eye.png</file>
+    <file>eye-crossed.png</file>
+  </qresource>
+</RCC>

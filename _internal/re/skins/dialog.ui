@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>303</width>
+    <height>189</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>321</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(45, 42, 58);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="localtitle2_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 19pt &quot;Nimbus Sans D OT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Account exists</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 255, 127);
+font: 25 9pt &quot;Nimbus Sans D OT Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Account already exists as a local server</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loin">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(113, 82, 173);
+border-radius: 7px;
+border: 0px;
+color: rgb(255, 255, 255);
+padding-left: 13px;
+font: 75 9pt &quot;Nimbus Sans D OT&quot;;}
+QPushButton:hover{
+background-color: rgb(225, 225, 225);
+	color: rgb(172, 172, 172);
+}</string>
+    </property>
+    <property name="text">
+     <string>Try Login</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../ui/uielement.qrc"/>
+ </resources>
+ <connections/>
+</ui>
